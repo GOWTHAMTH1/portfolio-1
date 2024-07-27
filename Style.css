@@ -268,7 +268,7 @@ iframe{padding-left: 20px; }
 }
 /*======================---Media queries---===========================*/
 @media screen and (max-width:568px) {
-    .body{font-size: smaller;height: 100%;width: 100%;}
+    .body{font-size: smaller;height: 100%;width: 100%; overflow: hidden;}
     /*=======---navbar m-queries---============*/
 .nav {position: fixed;
     margin-top: 0px ; 
@@ -289,14 +289,14 @@ iframe{padding-left: 20px; }
 }
 .nav .btn{display:block;
     border: 1px solid white;
-    padding: 5px;
+    padding: 4px;
     position: absolute;right: 5px;top: 10px;
     background-color:black;
 }
 .nav .btn span{
     display: block;
-    width: 30px;height: 1px;
-    border-top: 3px solid white;
+    width: 25px;height: 1px;
+    border-top: 2px solid white;
 }
 .nav .btn span:not(:last-child){
     margin-bottom: 5px;
@@ -314,11 +314,11 @@ iframe{padding-left: 20px; }
 
  /*=======---header m-queries---============*/
 .header{ height: 100%;width: 100%;}
-.mode{position: fixed; margin-top: 10%;display: none; }
+.mode{position: fixed; margin-top: 12%;font-size: 13px;z-index: 2; }
 .imgbox{
     margin:30% 0% 0% 20% ;
 }
-header .main{margin:5% 0% 0% 10%  ;}
+header .main{margin:5% 0% 0% 10%  ; font-size: 14px;}
 header .file{margin: 3% 0% 0% 10%;
 padding-bottom: 20%;}
 
