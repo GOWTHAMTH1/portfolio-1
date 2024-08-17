@@ -78,15 +78,13 @@ header{height: 100vh;width:100vw; }
 }
 
 .file{  margin: 2% 0% 0% 42%;
-     display:flex
-     
+    display: flex;position: relative;z-index: 2;
       }
 .resume{
     background-color: white;color: black;
     }
-.resume:hover{color: blue; opacity:1; cursor: pointer; }   
-.hire{
-         background-color:blue; color:white;}
+.resume:hover{color: blue; opacity:1; cursor: pointer;  }   
+.hire{background-color:blue; color:white;z-index: 1;}
 .hire:hover{ color: black;opacity: 1; cursor: pointer;}
 
 
@@ -271,9 +269,9 @@ iframe{padding-left: 20px; }
     .body{font-size: smaller;height: 100%;width: 100%; overflow: hidden;}
     /*=======---navbar m-queries---============*/
 .nav {position: fixed;
-    margin-top: 0px ; 
+    margin-top: 0px ;
     width: 100%;
-    height: 45%; 
+    height: 48%; 
     z-index: 1;
     box-shadow: none;
 }
@@ -285,7 +283,7 @@ iframe{padding-left: 20px; }
     font-size: 1em;
     padding: 3%;
     align-items: center;
-    z-index: 1;
+    z-index: 1 ;
 }
 .nav .btn{display:block;
     border: 1px solid white;
@@ -302,13 +300,13 @@ iframe{padding-left: 20px; }
     margin-bottom: 5px;
 }
 .nav .listdiv ul{margin-top: 0px;
-    background-color: blue;
+    background-color: blue;position: relative; font-size: small;
 }
 .nav .listdiv a {text-decoration: none;color:white; }
 .nav .listdiv ul li{
     list-style-type: none;
-    margin-top:5px ;
-    padding-bottom: 1em;
+    margin-top:13px ;
+    padding-bottom: 3px;
 }
 .hide{display:none;}
 
@@ -319,9 +317,11 @@ iframe{padding-left: 20px; }
     margin:30% 0% 0% 20% ;
 }
 header .main{margin:5% 0% 0% 10%  ; font-size: 14px;}
-header .file{margin: 3% 0% 0% 10%;
+header .file{margin: 3% 0% 0% 10%;position: relative;z-index: 2;
 padding-bottom: 20%;}
-
+.file{  margin: 2% 0% 0% 42%; display: flex;
+    
+     }
  /*=======---about m-queries---============*/
 .about{min-height: 100%;width: 100%;
     padding-top: 7%;
@@ -364,11 +364,11 @@ padding-top: 10px;}
 
 /*=======---website m-queries---============*/
 .footer{height:100% ; width: 100%;padding-top: 100px;}
-.webh1{position:relative ;top:20%;left:3%; }
-.websites{margin-top: 60%;}
-.fa-envelope{margin: 25% 0% 0% 20%;font-size: 5em;}
+.webh1{position:relative ;top:10%;left:3%; }
+.websites{margin-top: 30%;}
+.fa-envelope{margin: 20% 0% 0% 20%;font-size: 5em;}
 .fa-linkedin{margin:0%;padding-left: 20%;font-size: 5em;}
-.fa-github{margin: 25% 0% 0% 20%;font-size: 5em;}
+.fa-github{margin: 20% 0% 0% 20%;font-size: 5em;}
 .fa-youtube{margin:0%;padding-left: 20%;font-size: 5em;}
 
 
