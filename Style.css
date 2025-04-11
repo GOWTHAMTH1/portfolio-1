@@ -181,8 +181,9 @@ header{height: 100vh;width:100vw; }
     margin-top: 7rem;margin-left:10rem;
     display: flex;
     justify-content: space-evenly;}
-.fa-bootstrap,.fa-c{font-size: 150px;overflow: hidden;}
+.fa-bootstrap,.fa-react,.fa-c{font-size: 150px;overflow: hidden;}
 .fa-bootstrap{color:darkmagenta}
+.fa-react{color: aqua;}
 .fa-c{color: darkcyan;}
 
 /*========================--address--============================-*/
@@ -345,7 +346,7 @@ margin-left: 3%;
 .skills{margin-left: 3%;padding-top: 8%;}
 .skillsh1{margin-left: 0%;}
 .frontend{margin:25% 0%;}
-.fa-html5,.fa-css3-alt,.fa-js,.fa-bootstrap,.fa-c{
+.fa-html5,.fa-css3-alt,.fa-js,.fa-react,.fa-bootstrap,.fa-c{
     font-size: 5em;
 }
 

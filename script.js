@@ -26,7 +26,7 @@ function light(){
 }
    function cv(){
     var mywindow;
-    mywindow=window.open("Gowtham Resume.pdf")
+    mywindow=window.open("GowthamResume.pdf")
 }
 document.querySelector(".btn").onclick=function(){
     document.querySelector(".listdiv").classList.toggle("hide")
